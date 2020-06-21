@@ -12,7 +12,6 @@ typedef const char* cstring;
 
 // poor man's boolean
 typedef enum { FALSE = 0, TRUE } cbool;
-#define cbool(X) ((X) ? TRUE : FALSE)
 
 // cannot re-use enums because they are delcared in c++
 // cannot re-declare them, either, won't compile
